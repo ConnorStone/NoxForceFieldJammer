@@ -1,0 +1,6 @@
+name: NoxForcefieldJammer
+version: ${project.version}
+author: bbcsto13
+main: ${main}
+depend: [ProtocolLib]
+website: http://www.noxpvp.com

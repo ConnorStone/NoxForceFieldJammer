@@ -1,0 +1,6 @@
+name: NoxForcefieldJammer
+version: 1.0 Beta
+author: bbcsto13
+main: com.noxpvp.forcefieldjammer.ForcefieldJammer
+depend: [ProtocolLib]
+website: http://www.noxpvp.com

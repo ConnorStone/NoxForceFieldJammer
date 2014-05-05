@@ -16,9 +16,6 @@ import com.noxpvp.forcefieldjammer.packet.JamPacket;
 
 public class ForcefieldJammer extends JavaPlugin {
 	
-	//config
-	public static final String UPDATE_PERIOD = "jammer.update-period";
-	
 	//perm nodes
 	public static final String PERM_NODE = "forcefieldjammer";
 	public static final String PERM_EXEMPT = PERM_NODE + ".exempt";
@@ -28,15 +25,10 @@ public class ForcefieldJammer extends JavaPlugin {
 	
 	private static ForcefieldJammer instance;
 	
-	private FileConfiguration config;
 	private JammedPlayerUpdater updater;
 	private ForcefieldListener listener;
 	private Map<Player, Vector> jammed;
 	public Callable<Player[]> getPlayersToUpdateCallable;
-	
-	public FileConfiguration getForcefieldConfig() {
-		return config;
-	}
 	
 	public static ForcefieldJammer getInstance() {
 		return instance;
